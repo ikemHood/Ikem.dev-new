@@ -19,24 +19,6 @@ const serviceData = [
     icon: "fab fa-ethereum",
     desc: "I build innovative web3 products that solve real-world problems, from DeFi to supply chain optimization. My deep blockchain expertise produces user-friendly utilities that deliver real value.",
   },
-  // {
-  //   id: 4,
-  //   name: "Web Design",
-  //   icon: "bi bi-columns",
-  //   desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  // },
-  // {
-  //   id: 5,
-  //   name: "Development",
-  //   icon: "bi bi-distribute-vertical",
-  //   desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  // },
-  // {
-  //   id: 6,
-  //   name: "SEO Marketing",
-  //   icon: "bi bi-globe2",
-  //   desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  // },
 ];
 const Services = () => {
   return (
