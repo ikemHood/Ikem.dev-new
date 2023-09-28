@@ -1,0 +1,68 @@
+import SectionTitle from "./SectionTitle";
+
+const serviceData = [
+  {
+    id: 1,
+    name: "Web Development",
+    icon: "bi bi-laptop",
+    desc: "I create stunning, responsive websites that help businesses attract and engage customers online. My custom designs and robust code bring your brand to life.",
+  },
+  {
+    id: 2,
+    name: "Smart contract Developmennt",
+    icon: "fab fa-redhat",
+    desc: "I develop secure, tested smart contracts on Ethereum and other blockchain networks to power your decentralized applications and crypto initiatives. Trust me to code complex dApps right.",
+  },
+  {
+    id: 3,
+    name: "Web3 Utility Product",
+    icon: "fab fa-ethereum",
+    desc: "I build innovative web3 products that solve real-world problems, from DeFi to supply chain optimization. My deep blockchain expertise produces user-friendly utilities that deliver real value.",
+  },
+  // {
+  //   id: 4,
+  //   name: "Web Design",
+  //   icon: "bi bi-columns",
+  //   desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  // },
+  // {
+  //   id: 5,
+  //   name: "Development",
+  //   icon: "bi bi-distribute-vertical",
+  //   desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  // },
+  // {
+  //   id: 6,
+  //   name: "SEO Marketing",
+  //   icon: "bi bi-globe2",
+  //   desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  // },
+];
+const Services = () => {
+  return (
+    <section id="services" className="section services-section">
+      <div className="container">
+        <SectionTitle heading={"Services I Offer"} subHeading={"Services"} />
+        <div className="row gy-4">
+          {serviceData.map((service) => (
+            <div className="col-sm-6 col-lg-4" key={service.id}>
+              <div className="feature-box-01">
+                <div className="feature-content">
+                  <div className="number">
+                    <span>0{service.id}</span>
+                  </div>
+                  <h5>{service.name}</h5>
+                  <p>{service.desc}</p>
+                  <div className="icon">
+                    <i className={service.icon} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+export default Services;
