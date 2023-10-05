@@ -13,6 +13,7 @@ export default function Document() {
         />
         <meta name="keywords" content="Ikem Peter - FullStack Web3 Software Developer" />
         <meta name="description" content="Ikem Peter - FullStack Web3 Software Developer" />
+        <meta property="og:image" content="https://avatars.githubusercontent.com/u/91676649?v=4"></meta>
         {/* title */}
         <title>Ikem Peter - FullStack Web3 Software Developer</title>
         {/* Favicon */}

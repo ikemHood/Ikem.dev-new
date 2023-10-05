@@ -1,7 +1,7 @@
 const SectionTitle = ({ heading, subHeading, text }) => {
   return (
     <div className="row section-heading">
-      <div className="col-lg-6">
+      <div className="">
         <h6>
           <span>{subHeading}</span>
         </h6>

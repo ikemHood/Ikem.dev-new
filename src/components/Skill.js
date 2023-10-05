@@ -44,8 +44,7 @@ const Skill = () => {
             <SectionTitle
               heading={"Skills and  Experience"}
               subHeading={"Experience"}
-              text={
-                "I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores."
+              text={`Exceptional web3 developer crafting cutting-edge experiences. Mastery of Solidity, JavaScript, NextJs. Specialized in building decentralized apps and products.`
               }
             />
 
